@@ -1,0 +1,12 @@
+### Get all products
+GET http://localhost:8000/products
+Accept: application/json
+
+### Create a product
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+    "name": "product2",
+    "price": 100
+}
